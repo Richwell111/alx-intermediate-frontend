@@ -1,0 +1,70 @@
+
+/*! tailwindcss v4.1.13 | MIT License | https://tailwindcss.com */
+
+/* Base styles */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+/* Utilities */
+.p-2 { padding: 0.5rem; }
+.p-4 { padding: 1rem; }
+.mt-4 { margin-top: 1rem; }
+.mb-4 { margin-bottom: 1rem; }
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+.text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+.font-bold { font-weight: 700; }
+
+.bg-blue-200 { background-color: #bfdbfe; }
+.bg-blue-300 { background-color: #93c5fd; }
+.bg-blue-400 { background-color: #60a5fa; }
+.bg-blue-500 { background-color: #3b82f6; }
+.bg-red-200 { background-color: #fecaca; }
+.bg-red-400 { background-color: #f87171; }
+.bg-red-500 { background-color: #ef4444; }
+.bg-green-200 { background-color: #bbf7d0; }
+.bg-yellow-200 { background-color: #fef08a; }
+.bg-gray-300 { background-color: #d1d5db; }
+.bg-gray-500 { background-color: #6b7280; }
+.bg-gray-800 { background-color: #1f2937; }
+
+.text-white { color: #fff; }
+.text-red-700 { color: #b91c1c; }
+
+.w-1\/2 { width: 50%; }
+.w-1\/3 { width: 33.333333%; }
+.w-2\/3 { width: 66.666667%; }
+.w-full { width: 100%; }
+
+.rounded-lg { border-radius: 0.5rem; }
+
+.grid { display: grid; }
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.gap-2 { gap: 0.5rem; }
+.gap-4 { gap: 1rem; }
+.lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.lg\:col-span-2 { grid-column: span 2 / span 2; }
+
+.flex { display: flex; }
+.space-x-5 > :not([hidden]) ~ :not([hidden]) { margin-left: 1.25rem; }
+.justify-center { justify-content: center; }
+
+.hover\:bg-gray-500:hover { background-color: #6b7280; }
