@@ -1,0 +1,14 @@
+Steps to Install SASS:
+
+1. Ensure Node.js is installed:
+   - Node.js version checked: node -v
+   - npm version checked: npm -v
+
+2. Install SASS globally:
+   - Ran: npm install -g sass
+   - Installed version: 1.92.1
+
+3. Verify installation:
+   - Ran: sass --version
+   - Output: 1.92.1 compiled with dart2js 3.9.2
+   - SASS is ready to compile .scss files into CSS
